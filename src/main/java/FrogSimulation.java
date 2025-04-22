@@ -26,7 +26,7 @@ public class FrogSimulation
 	{ 
 		double r =0;
 		for(int i=0;i<num;i++){
-if(simulated()==true){r++;}
+if(simulate()==true){r++;}
 
 		}
 return r/num;
