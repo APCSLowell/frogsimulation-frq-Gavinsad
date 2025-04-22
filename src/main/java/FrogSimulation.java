@@ -17,7 +17,7 @@ public class FrogSimulation
 	{ 
 		int t =0;
 		for(int i=0;i<maxHops;i++){t += hopDistance();if(t<0){return false;}}
-		if(t>goalDistance){return true;}
+		if(t>=goalDistance){return true;}
 		return false;
 
 	}
@@ -29,7 +29,7 @@ public class FrogSimulation
 if(simulate()==true){r++;}
 
 		}
-return r/num;
+return (double)r/num;
 	}
 	
 	
